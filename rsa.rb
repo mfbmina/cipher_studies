@@ -75,7 +75,7 @@ class Rsa
   def random_prime_number
     number = Random.rand(10..100)
     until Prime.prime?(number) || number == p || number == q do
-      number = Random.rand(100)
+      number = Random.rand(10..100)
     end
     number
   end
