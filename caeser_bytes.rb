@@ -7,7 +7,7 @@
 # 97 is equal to a and 122 is equal to z.
 # anything else should not be changed
 
-class Caeser
+class CaeserBytes
   attr_reader :text, :rotation
 
   def initialize(text, rotation)
